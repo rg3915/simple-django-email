@@ -3,7 +3,6 @@ from django.shortcuts import HttpResponseRedirect
 from django.views.generic import TemplateView
 from .forms import EmailForm
 from .mixins import EmailMixin
-from django.db import models
 
 class Index(TemplateView, EmailMixin):
 
