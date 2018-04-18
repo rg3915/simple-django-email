@@ -14,7 +14,7 @@ class Index(TemplateView, EmailMixin):
         """
         método para pegar o formulário e os dados submetidos
 
-        Nota1 - Customize a estrutura de seu email no arquivo email.html
+        Nota - Customize a estrutura de seu email no arquivo email.html
         """
         context = super(Index, self).get_context_data(**kwargs)
         form = EmailForm()
